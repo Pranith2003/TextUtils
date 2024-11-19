@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import textcontext from "../context/textcontext";
 function Navbar(props) {
-  console.log(useContext(textcontext))
+  // console.log(useContext(textcontext))
   //   Navbar.defaultProps = {
   //     title: "Title",
   //     home: "xHome",
@@ -11,8 +11,6 @@ function Navbar(props) {
   //     contact: "xContact",
   //   };
   Navbar.propTypes = { title: PropTypes.string, home: PropTypes.string };
-  
-  
 
   return (
     <div>
