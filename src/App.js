@@ -73,7 +73,7 @@ function App() {
             <Routes>
               <Route
                 exact
-                path="/"
+                path="/TextUtils"
                 element={
                   <TextForm
                     heading="Enter Your Text to Analyse"
