@@ -1,3 +1,3 @@
-import React, { createContext } from 'react'
+import { createContext } from "react";
 const textcontext = createContext();
-export default textcontext
+export default textcontext;
